@@ -1,5 +1,4 @@
-ul,
-li {
+ul, li {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -7,59 +6,46 @@ li {
 
 .pagination ul {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
 }
-
-
 /*可以修改border*/
-
-.pagination>li>a {
+.pagination > li >a {
     color: darkgrey;
     border: none;
 }
-
-.pagination>li>a:hover {
+.pagination > li > a:hover {
     color: grey;
 }
-
-.pagination a:hover,
-.pagination .active a,
-.pagination .active span {
+.pagination a:hover, .pagination .active a, .pagination .active span {
     background-color: silver;
 }
 
-.pagination .active a,
-.pagination .active span,
-.pagination>li>a:focus,
-.pagination>.active>a:focus {
+.pagination .active a, .pagination .active span ,.pagination > li > a:focus, .pagination > .active > a:focus{
     color: grey;
     /*color: darkgrey;*/
-    font-weight: bold;
+    font-weight: bold ;
     background: transparent;
     /*border-color: #666;*/
-    border: none;
+    border: none ;
+
     /*cursor: default;*/
 }
-
 .pagination .active a:hover {
     background: #EEE;
     color: #808080;
     /*border-color: #666;*/
     border: none;
-}
 
-.pagination .disabled span,
-.pagination .disabled a,
-.pagination .disabled a:hover {
+}
+.pagination .disabled span, .pagination .disabled a, .pagination .disabled a:hover {
     background-color: transparent;
     color: #999999;
     /*cursor: default;*/
 }
-
 a {
     color: #3a3a3a;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: none;
 }
